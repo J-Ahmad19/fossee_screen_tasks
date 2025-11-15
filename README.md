@@ -32,24 +32,24 @@ It includes Python scripts for extracting, processing, and visualizing **Shear F
 
 ---
 
-## 📂 Files in Repository
+### **📂 Files in Repository**
 
-task1.py # Task 1 script (2D BMD/SFD)
-task2.py # Task 2 script (3D extruded diagrams)
-screening_task1.nc # Input dataset
-element.py # Element -> [node_i, node_j]
-node.py # Node -> [x, y, z]
+- task1.py # Task 1 script (2D BMD/SFD)
+- task2.py # Task 2 script (3D extruded diagrams)
+- screening_task1.nc # Input dataset
+- element.py # Element -> [node_i, node_j]
+- node.py # Node -> [x, y, z]
 
-BMD_central_girder.png # Output from Task 1
-SFD_central_girder.png
-central_girder_Mz_Vy.csv
+- BMD_central_girder.png # Output from Task 1
+- SFD_central_girder.png
+- central_girder_Mz_Vy.csv
 
-Task2_BMD_3D.png # Output from Task 2
-Task2_SFD_3D.png
-task2_summary.csv
+- Task2_BMD_3D.png # Output from Task 2
+- Task2_SFD_3D.png
+- task2_summary.csv
 
-requirements.txt # Python dependencies
-README.md # Project documentation
+- requirements.txt # Python dependencies
+- README.md # Project documentation
 
 
 ---
@@ -66,14 +66,14 @@ python task1.py
 ### Run task 2
 python task2.py
 
-🖼 Output Examples
-Task 1 – Central Girder
+### **🖼 Output Examples**
+##Task 1 – Central Girder
 
 BMD_central_girder.png
 
 SFD_central_girder.png
 
-Task 2 – Longitudinal Girders (3D Extrusions)
+##Task 2 – Longitudinal Girders (3D Extrusions)
 
 Task2_BMD_3D.png
 
@@ -81,7 +81,7 @@ Task2_SFD_3D.png
 
 (Refer to images included in the repository.)
 
-📘 Summary of Approach
+### **📘 Summary of Approach**
 
 Extracts internal force components (Mz_i, Mz_j, Vy_i, Vy_j)
 
@@ -96,7 +96,7 @@ Saves complete numerical force data in CSV format
 Designed to be solver-agnostic as long as force components are provided
 
 
-📄 License
+### **📄 License**
 
 This project was created for the FOSSEE Internship Screening Task.
 You may use or modify the scripts for academic learning or structural analysis studies.
